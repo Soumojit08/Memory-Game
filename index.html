@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>
+      <em><u>WELCOME TO MEMORY SCORER</u></em>
+    </h1>
+    <main>
+      <div id="main1">
+        <div class="game-holder">
+          <div id="holder-1">
+            <button type="button" class="box"></button>
+            <button type="button" class="box"></button>
+            <button type="button" class="box"></button>
+            <button type="button" class="box"></button>
+          </div>
+          <div id="holder-2">
+            <button type="button" class="box"></button>
+            <button type="button" class="box"></button>
+            <button type="button" class="box"></button>
+            <button type="button" class="box"></button>
+          </div>
+          <div id="holder-3">
+            <button type="button" class="box"></button>
+            <button type="button" class="box"></button>
+            <button type="button" class="box"></button>
+            <button type="button" class="box"></button>
+          </div>
+          <div id="holder-4">
+            <button type="button" class="box"></button>
+            <button type="button" class="box"></button>
+            <button type="button" class="box"></button>
+            <button type="button" class="box"></button>
+          </div>
+        </div>
+      </div>
+      <div id="main2">
+        <div class="details">
+          <div id="timer">
+            <h2>Timer : <span id="time">start timer</span></h2>
+          </div>
+        </div>
+        <div id="btn-holder">
+          <button id="start-btn">START</button>
+          <button id="stop-btn">STOP</button>
+          <button id="reset-btn">RESET</button>
+        </div>
+        <marquee behavior="scroll" direction="left"
+          >N.B - RESET BUTTON RESET THE ENTIER PAGE</marquee
+        >
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
